@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function openMusicPlayer() {
+            window.open('music.html', 'musicPlayer', 'width=300,height=100');
+            return false;
+        }
+    </script>
+   
+</head>
+<body id="index-page">
+<header> 
+        
+         <h1>Welcome To My Safe Space</h1>
+   
+</header>
+
+<hr>
+<nav>
+    <table cellspacing="5" cellpadding="5">
+        <tr>
+            <td><a href="index.html">&#127968; Home</a></td>
+            <td><a href="about.html">&#128100; About</a></td>
+            <td><a href="education.html">&#127891; Education</a></td>
+            <td><a href="hobby.html">&#127928; Hobby</a></td>
+            <td><a href="contact.html">&#128222; Contact</a></td>
+        </tr>
+    </table>
+</nav>
+
+
+<section class="personal-intro">
+   <h2 class="moving-text colored-title">A Sneak Peek Into My Perfectly Imperfect Life</h2>
+<p class="colored-text" style="text-align: center;">Hi, I'm Siti Norizatulnisa. A student of Diploma Information Management at UiTM who passionate about web development, design, and technology.</p>
+
+    <ul>
+        <li>&#128218; Currently studying Information Management at UiTM</li>
+        <li>&#128187; Exploring the basics of Web Design & Development</li>
+        <li>&#127912; Learning new skills step by step</li>
+    </ul>
+
+    <div class="audio">
+        <audio autoplay loop muted>
+         <source src="img/music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+        <button onclick="openMusicPlayer()">&#127925; Play Music</button>
+    </div>
+
+</section>
+
+<div class="image-container">
+    <img src="img/nisa.jpg" alt="Profile picture of nisa" class="profile-img slide-left">
+<img src="img/11.jpg" alt="a picture of 11" class="profile-img slide-left">
+    <img src="img/lee.jpg" alt="a picture of lee" class="profile-img slide-left">
+   <img src="img/mark.jpg" alt="a picture of mark" class="profile-img slide-left">
+     <img src="img/love.jpg" alt="a picture of love" class="profile-img slide-left">
+    <img src="img/meow.jpeg" alt="a picture of meow" class="profile-img slide-left">
+    
+</div>
+<div>
+    <div class="text-center mt-3">
+    <a href="about.html" class="btn">Learn More About Me</a>
+</div>
+
+<footer>
+        <hr>
+        <p>&copy; 2024 nisunraes | All Rights Reserved</p>
+    </footer>
+ 
+
+
+</body>
+</html>
